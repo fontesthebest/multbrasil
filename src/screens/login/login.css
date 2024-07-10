@@ -1,0 +1,38 @@
+.view-login{
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,10%);
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px 20px;
+}
+
+.form-login{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+}
+
+.form-login input{
+    border-radius: 5px;
+    width: 80%;
+    margin: 3px 0px 10px 0px;
+    border-color: #000;
+    padding: 8px;
+}
+
+.form-login button{
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+}
+
+.form-login input::-webkit-outer-spin-button,
+.form-login input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,76 @@
+.view-job {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+.view-job h2{
+    color: white;
+  }
+
+.card-view{
+    width: 400px;
+    background-color: #5424FD;
+    color: white;
+    display: block;
+    border-radius: 25px;
+}
+
+.card-inf-view{
+    background-color: #5424FD;
+    width: auto;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.card-inf-view p{
+    margin: 10px 5px;
+    background-color: #d5d5d537;
+    border: 2px;
+    border-style: solid;
+    border-color: #d5d5d57b;
+    color: white;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
+.card-bottom{
+    color: black;
+}
+
+.job-desc{
+    
+    margin-top: 20px;
+    background-color: #d5d5d537;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.job-desc-top{
+    display: inline-flex;
+}
+
+.job-desc h2{
+    margin-left: 20px;
+}
+
+.desc{
+    padding: 20px 10px;
+    color: white;
+}
+
+#img3 {
+    background-color: #d5d5d57b;
+    border-radius: 10px;
+    margin: auto 0px auto 20px ;
+    width: 50px;
+    height: 50px;
+  
+  }
+
+.list-view{
+    color: white;
+    padding-bottom: 20px;
+}
